@@ -25,6 +25,7 @@ p {
 		padding: 5px 20px;
 	}
 
+
 /*	.work-btn {
 		text-align: center;
 		padding-top: 40px;
@@ -90,6 +91,17 @@ body {
 
 	.grey {
 		background-color: #4D4D4D;
+	}
+
+	.other{
+		padding: 60px 20px;
+		background-color: #4D4D4D;
+	}
+
+	.det {
+		padding-top: 60px;
+		padding-bottom: 60px;
+		text-align: center;
 	}
 
 	/*#work {
