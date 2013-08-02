@@ -1,3 +1,7 @@
+html {
+-webkit-font-smoothing: antialiased;
+}
+
 p {
 	font-family: 'Noto Sans', Sans;
 	font-size: 28px;
