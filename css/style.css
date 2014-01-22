@@ -47,6 +47,24 @@ p.feet-type {
 	padding: 0px;
 }
 
+/*CV*/
+
+a {
+	text-decoration: underline;
+	color: #F25749;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+.cv {
+	background-color: #333333;
+	padding: 0px 20px 40px;
+}
+
+/*CV*/
+
 /* ------------------------------
 ------------ CONTENT ------------
 --------------------------------- */
@@ -135,6 +153,10 @@ figure {
 figure img {
 	width: 100%;
 	display: inline-block;
+}
+
+.det:hover{
+	opacity: .5;
 }
 
 .icon {
