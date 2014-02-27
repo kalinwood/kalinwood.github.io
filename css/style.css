@@ -59,12 +59,12 @@ p.feet-type {
 
 /*CV*/
 
-a {
+.cv-link {
 	text-decoration: underline;
 	color: #F25749;
 }
 
-a:hover {
+.cv-link:hover {
 	color: #ffffff;
 	-webkit-transition: all 0.4s ease;
 -moz-transition: all 0.4s ease;
@@ -88,6 +88,29 @@ a:hover {
 		padding-top: 40px;
 	}
 */
+
+a {
+	text-decoration: none;
+}
+
+.social-links {
+	text-align: center;
+	padding-top: 40px;
+}
+
+.ss-icon {
+	color: #333333;
+	font-size: 40px;
+	padding: 40px 20px 0px 20px;
+}
+
+.ss-icon:hover {
+	text-decoration: none;
+	color: #ffffff;
+	-webkit-transition: all 0.4s ease;
+  	-moz-transition: all 0.4s ease;
+  	-o-transition: all 0.4s ease;
+}
 
 .content a {
 	display: inline-block;
