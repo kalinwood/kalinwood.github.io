@@ -17,6 +17,11 @@
 
 html {
 -webkit-font-smoothing: antialiased;
+height: 100%;
+}
+
+.header {
+	height: 100%;
 }
 
 p {
@@ -28,8 +33,13 @@ p {
 	padding-bottom: 0px;
 }
 
+.coding {
+	color: #F25749;
+	padding-bottom: 100px;
+}
+
 .bio {
-	padding: 0 20px 80px 20px;
+	padding: 40px 20px 60px 20px;
 }
 
 .description {
@@ -56,6 +66,9 @@ a {
 
 a:hover {
 	color: #ffffff;
+	-webkit-transition: all 0.4s ease;
+-moz-transition: all 0.4s ease;
+-o-transition: all 0.4s ease;
 }
 
 .cv {
@@ -96,6 +109,9 @@ a:hover {
   text-decoration: none;
   margin-top: auto;
   text-align: center;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
   }
 
 
@@ -104,23 +120,33 @@ a:hover {
 	color: #F25749;
   }
 
+.content {
+	top: 20%;
+	text-align: center;
+}
+
+.arrow {
+	text-align: center;
+}
+
 
 body {
 	background-color: #F25749;
 	padding: 0px;
 	margin: 0px;
-	}
+	height: 100%;
+}
 
 section {
 	max-width: 100%;
-	padding: 100px 20px;
+	padding: 200px 20px;
 	text-align: center;
 	display: block;
 		
 }
 
 .face {
-	padding-top: 80px;
+	top: 50%;
 	padding-bottom: 80px;
 	text-align: center;
 }
@@ -157,6 +183,9 @@ figure img {
 
 .det:hover{
 	opacity: .5;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
 }
 
 .icon {
