@@ -62,13 +62,13 @@ p.feet-type {
 .cv-link {
 	text-decoration: underline;
 	color: #F25749;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
 }
 
 .cv-link:hover {
 	color: #ffffff;
-	-webkit-transition: all 0.4s ease;
--moz-transition: all 0.4s ease;
--o-transition: all 0.4s ease;
 }
 
 .cv {
@@ -102,14 +102,14 @@ a {
 	color: #333333;
 	font-size: 40px;
 	padding: 40px 20px 0px 20px;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
 }
 
 .ss-icon:hover {
 	text-decoration: none;
 	color: #ffffff;
-	-webkit-transition: all 0.4s ease;
-  	-moz-transition: all 0.4s ease;
-  	-o-transition: all 0.4s ease;
 }
 
 .content a {
@@ -204,11 +204,14 @@ figure img {
 	display: inline-block;
 }
 
-.det:hover{
-	opacity: .5;
+.det {
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
 	-o-transition: all 0.4s ease;
+}
+
+.det:hover{
+	opacity: .5;
 }
 
 .icon {
