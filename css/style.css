@@ -221,10 +221,14 @@ a {
   max-height: 250px;
 }
 
+.face {
+  max-height: 250px;
+}
+
 .ss-icon {
   font-size: 1em;
 }
 
 .me {
-  padding-top: 50px;
+  padding-top: 75px;
 }
