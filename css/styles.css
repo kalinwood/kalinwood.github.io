@@ -1,0 +1,243 @@
+* {
+  margin: 0; 
+  padding: 0; 
+  position: relative; 
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  vertical-align: center;
+  background: #262626;
+}
+
+/*GRID*/
+
+.hero {
+  height: 450px;
+  text-align: center;
+  background-image: url(../images/detroit.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.one-of-four {
+  width: 25%;
+  height: 250px;
+  background-color: #e7e7e7;
+  float: left;
+}
+
+.two-of-four {
+  width: 50%;
+  height: 500px;
+  background: #333333;
+  text-align: center;
+  float: left;
+  position: relative;
+}
+
+/*GRID*/
+
+.wrap-a {
+  width: 100%;
+  float: left;
+}
+
+.face {
+  max-height: 200px;
+}
+
+.sites {
+  max-height: 300px;
+  margin-top: 90px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.sites:hover {
+  opacity: .7;
+}
+
+.det{
+  background-image: url(../images/detroit.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.face {
+  max-height: 300px;
+  margin-top: 75px;
+}
+
+.me {
+  position: absolute;
+  color: #e7e7e7;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  background: transparent;
+}
+
+.mich {
+  background-image: url(../images/mich.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.mail {
+  background-image: url(../images/mail.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cv {
+  background-image: url(../images/grad.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dark {
+  background-color: #0B2C3C;
+  color: #e7e7e7;
+  text-align: center;
+  line-height: 250px;
+}
+
+.mid-grey {
+  background-color: #3C5663;
+}
+
+.mid-grey-two {
+  background-color: #637882;
+}
+
+.light-grey {
+  /*background-color: #979797;*/
+  background-color: #91D3ED;
+}
+
+.bike {
+  background-image: url(../images/hockey.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  border-bottom: 1px solid #91D3ED;
+  color: #91D3ED;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+.link:hover {
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.full {
+  width: 100%;
+  background-color: #FFF9F0;
+  text-align: center;
+  color: #0B2C3C;
+  font-size: 1.5em;
+  padding: 80px 20px;
+  display: block;
+}
+
+.bio {
+  font-size: .7em;
+  max-width: 960px;
+  line-height: 1.5em;
+  margin: 20px auto;
+}
+
+.view {
+  background-color: #515151;
+}
+
+.footer {
+  width: 100%;
+  font-size: .5em;
+  background-color: #FFF9F0;
+  color: #262626;
+  padding: 20px;
+  text-align: center;
+}
+
+.social {
+  font-size: .5em;
+  background-color: #e7e7e7;
+  padding: 20px 20px;
+}
+
+.ss-icon {
+  color: #0B2C3C;
+  font-size: 2em;
+  padding: 0 .5em;
+  text-align: right;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+.ss-icon:hover {
+  text-decoration: none;
+  color: #91D3ED;
+}
+
+.title {
+  font-size: 1.5em;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width:900px) {
+.two-of-four {
+  width: 100%;
+  height: 400px;
+}
+
+.one-of-four {
+  width: 50%;
+  height: 200px;
+  line-height: 200px;
+}
+
+.full {
+  font-size: 1em;
+  padding: 60px 20px;
+}
+
+.social {
+  padding: 20px;
+}
+
+.sites {
+  margin-top: 40px;
+}
+
+.ss-icon {
+  font-size: 1em;
+}
