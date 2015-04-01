@@ -7,6 +7,20 @@
   box-sizing: border-box; 
 }
 
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
 html, body {
   height: 100%;
   width: 100%;
@@ -44,6 +58,18 @@ html, body {
   position: relative;
 }
 
+.maeve {
+  background-color: #FFF9F0;
+  padding: 80px 20px;
+  text-align: center;
+  color: #0B2C3C;
+  font-size: 1.5em;
+}
+
+.maeve-logo {
+  max-width: 200px;
+}
+
 /*GRID*/
 
 .wrap-a {
@@ -68,13 +94,6 @@ html, body {
   opacity: .7;
 }
 
-.det{
-  background-image: url(../images/detroit.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .face {
   max-height: 300px;
   margin-top: 75px;
@@ -89,13 +108,6 @@ html, body {
   text-align: center;
   width: 100%;
   background: transparent;
-}
-
-.mich {
-  background-image: url(../images/mich.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .mail {
@@ -128,15 +140,7 @@ html, body {
 }
 
 .light-grey {
-  /*background-color: #979797;*/
   background-color: #91D3ED;
-}
-
-.bike {
-  background-image: url(../images/hockey.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 a {
@@ -144,7 +148,6 @@ a {
 }
 
 .link {
-  border-bottom: 1px solid #91D3ED;
   color: #91D3ED;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -152,7 +155,6 @@ a {
 }
 
 .link:hover {
-  border-bottom: 1px solid #ffffff;
   color: #ffffff;
 }
 
@@ -177,18 +179,9 @@ a {
   background-color: #515151;
 }
 
-.footer {
-  width: 100%;
-  font-size: .5em;
-  background-color: #FFF9F0;
-  color: #262626;
-  padding: 20px;
-  text-align: center;
-}
-
 .social {
   font-size: .5em;
-  background-color: #e7e7e7;
+  background-color: #91D3ED;
   padding: 20px 20px;
 }
 
@@ -204,6 +197,17 @@ a {
 
 .ss-icon:hover {
   text-decoration: none;
+  color: white;
+}
+
+.maeve-link {
+  color: #0B2C3C;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+.maeve-link:hover {
   color: #91D3ED;
 }
 
