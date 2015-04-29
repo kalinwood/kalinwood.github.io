@@ -66,6 +66,25 @@ html, body {
   font-size: 1.5em;
 }
 
+.work {
+  background-color: #0B2C3C;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.work-link {
+  color: white;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+.work-link:hover {
+  color: #22b38b;
+}
+
 .maeve-logo {
   max-width: 200px;
 }
