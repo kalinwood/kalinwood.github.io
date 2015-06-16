@@ -89,7 +89,6 @@ span {
 .wrap {
   max-width: 960px;
   margin: 0 auto;
-  /*margin-top: 80px;*/
 }
 
 .unit {
@@ -104,6 +103,14 @@ footer {
   padding: 40px 20px;
   text-align: center;
   border-top: 1px solid #e0dac7;
+}
+
+.first {
+  margin-top: 80px;
+}
+
+.last {
+  margin-bottom: 80px;
 }
 
 .ss-icon {
@@ -148,18 +155,12 @@ a:visited {
 
 @media screen and (min-width:700px) {
 
-.unit {
-  width: 50%;
-}
+  .unit { width: 50%; }
 
-.wrap {
-  max-width: 960px;
-  margin: 0 auto;
-  margin-top: 80px;
-}
+  .wrap { max-width: 960px; margin: 0 auto; margin-top: 80px; }
 
-.hero {
-  height: 900px;
-}
+  .hero { height: 900px; }
+
+  .first { margin-top: 0px; }
 
 }
